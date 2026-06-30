@@ -31,4 +31,5 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(error => {
             document.getElementById('titulo').textContent = "Error de conexión";
             document.getElementById('texto').textContent = error.message;
-        });
+        })
+    });
