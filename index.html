@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de los Mapas</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            padding: 2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #333;
+        }
+        /* Modo oscuro automático si el teléfono del usuario lo tiene activado */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1a1a1a;
+                color: #f0f0f0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main id="contenido-mapa">
+        <h1 id="titulo">Cargando...</h1>
+        <p id="texto"></p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
